@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="Ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/style.css" />
+  <title>HELLO</title>
+
+
+
+
+
+
+</head>
+
+
+<body>
+
+<h1>キャッチコピー</h1>
+
+<h2>About</h2>
+
+<p class="About_p">COACHTECHはフリーランス特化型のオンラインコーチングプログラミングスクールです。<br>プログラミング未経験の方でも<span>「独自の学習ノウハウ」</span>でフリーランスエンジニアを目指すことができます</p>
+
+<h3>ブログ</h3>
+
+<img src="./img/blog__eyecatch1.jpg" alt="Failed to download a picture">
+<h4>コーチテックブログのタイトルがここに入ります</h4>
+
+<img src="./img/blog__eyecatch2.jpg" alt="Failed to download a picture">
+<h4>コーチテックブログのタイトルがここに入ります</h4>
+
+<img src="./img/blog__eyecatch3.jpg" alt="Failed to download a picture">
+<h4>コーチテックブログのタイトルがここに入ります</h4>
+</body>
+
+
+<h5>お問い合わせ</h5>
+
+<form class="form1" action="">
+  <table>
+    <!-- テーブル１行目　名前と記入欄 -->
+    <!-- trはrow thは縦に並んでもOK-->
+    <tr>
+      <th><label for="name">お名前</label></th>
+      <td><input type="text" name="name" id="name"></td>
+    </tr>
+
+
+    <!-- テーブル２行目　メアドと記入欄 -->
+    <tr>
+      <th><label for="mail">メールアドレス</label></th>
+      <td><input type="email" name="mail" id="mail"></td>
+    </tr>
+
+
+    <!-- テーブル３行目　要件と選択欄 -->
+    <tr>
+      <th><label for="requestType">ご用件</label></th>
+
+
+      <td>
+        <select name="requestType" id="requestType">
+          <option value="no1">広告掲載について</option>
+          <option value="no2">今日の天気について</option>
+          <option value="no3">その他</option>
+        </select>
+      </td>
+
+    </tr>
+
+
+    <!-- テーブル４行目　内容と複数行記入欄 -->
+    <tr>
+      <th><label for="requestDetail">内容</label></th>
+      <td>
+        <textarea name="requestDetail" id="requestDetail"></textarea>
+      </td>
+    </tr>
+
+
+    <!-- テーブル５行目　送信と削除ボタン -->
+    <tr>
+
+      <td colspan="2">
+      <input type="submit" name="submit" value="送信">
+      <input type="button" name="delete" value="削除">
+      </td>
+
+    </tr>
+
+  </table>
+
+</form>
+
+</html>
